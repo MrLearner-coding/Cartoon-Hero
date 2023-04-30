@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+/*	hur nära till left side, vägg*/
+
+font-family: Helvetica, Arial, sans-serif;
+/*specify that will work for everyone, place after each other if the y dont have	. sans-serif = one that the computer have*/
+/*find ones from internet, they dont need to have, to see it, search google fonts*/
+	font-size: 20px;
+	line-height: 30px;
+}
+
+header{
+	background-color: #d14635;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+/*gives spaces	*/
+}
+h1, h2{
+/*all h1 and all h2	*/
+	font-family: 'Press Start 2P', cursive;
+}
+
+header h1{
+	color: white;
+	font-size: 50px;
+	
+}
+
+header img{
+	border-radius: 170px;
+/*	look from chrome inspect to see the width an stuff of the image, then put in right boarder radius*/
+	width: 300px;
+	border: 20px solid black;
+}
+
+main{
+	max-width: 800px;
+	/*maximum from right to left, not to long or wide so not, for the main part, for texts	*/
+/*	text-align: center;*/
+	margin: 0 auto;
+/*	0 top & bottom an auto left and right, centers item*/
+	padding: 20px;
+/*	experiment to understand what they tell you, try one number, two...*/
+}
+main img{
+	max-width: 100%;
+/*will change as the main, so 800px	*/
+}
+
+h2{
+	font-size: 30px;
+	color: #d14635;
+	margin: 40px 0 10px;
+/*	top, left and right, bottom*/
+}
+
+a{
+	color: #d14635;
+/*anker element*/
+}
+
+a:hover{
+	color: white;
+	background-color: #483a94;
+/*	when you hover on the element it makes a different color*/
+}
+
+
+footer{
+	background-color: #d14635;
+	color: white;
+	text-align: center;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0px;
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0px;
+/*	för kommentar under bild*/
+}
+
